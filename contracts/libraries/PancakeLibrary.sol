@@ -3,7 +3,7 @@ pragma solidity >=0.5.0;
 
 import 'https://github.com/pancakeswap/pancake-smart-contracts/blob/master/projects/exchange-protocol/contracts/interfaces/IPancakePair.sol';
 
-import "https://github.com/LuKks/pancake-swap-periphery/blob/master/contracts/libraries/SafeMath.sol";
+import "https://github.com/LuKks/pancake-swap-periphery/blob/master/contracts/libraries/SafeMath.sol?v=5";
 
 library PancakeLibrary {
     using SafeMath for uint;
